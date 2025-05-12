@@ -30,11 +30,13 @@ Includes a system notification, voice alert, and automatic logging.
 curl -O https://raw.githubusercontent.com/firmach48/shell-reminder/main/reminder.sh
 ```
 3. Make it executable:
+```bash
 chmod +x reminder.sh
-
-4. Run the script:
+```
+5. Run the script:
+```bash
 ./reminder.sh
-
+```
 💡 Example
 $ ./reminder.sh
 Enter reminder text:
