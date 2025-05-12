@@ -25,14 +25,14 @@ Includes a system notification, voice alert, and automatic logging.
 ---
 
 ## ⚙️ How to Use
-```bash
 1. Download the script:
+```bash
 curl -O https://raw.githubusercontent.com/firmach48/shell-reminder/main/reminder.sh
-
-2. Make it executable:
+```
+3. Make it executable:
 chmod +x reminder.sh
 
-3. Run the script:
+4. Run the script:
 ./reminder.sh
 
 💡 Example
