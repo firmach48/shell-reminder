@@ -13,6 +13,8 @@ Includes a system notification, voice alert, and automatic logging.
 - 🔊 Voice alert using `say`
 - 🗂 Logs reminders to `reminders.log`
 - 📋 Shows the last 3 reminders in the terminal
+- This is what it looks like
+- ![Alt text](/notification.jpeg)
 
 ---
 
