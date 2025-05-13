@@ -1,19 +1,18 @@
-# 📝 Simple Reminder — Terminal Notification Script for macOS (Zsh)
+# 📝 Simple Reminder — The Fastest Way to Set Terminal Reminders on macOS
 Описание на русском [тут](./README_ru.md). 
 
-A lightweight Zsh script to create quick local reminders on macOS.  
-Includes a system notification, voice alert, and automatic logging.
+**Simple Reminder** is a lightweight Zsh script that lets you set quick local reminders from your macOS terminal — with native notifications, voice alerts, and auto-logging.  
+No setup, no fluff — just one command and you're good to go.
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-- ⌨️ Enter reminder text via terminal
-- 🔔 macOS native notification (`osascript`)
-- 🔊 Voice alert using `say`
-- 🗂 Logs reminders to `reminders.log`
-- 📋 Shows the last 3 reminders in the terminal
-
+- ⚡ **Instant Reminders** — Type your message and get reminded instantly  
+- 🔔 **Native Notifications** — Uses macOS `osascript` to display pop-up alerts  
+- 🔊 **Voice Alerts** — Speaks your reminder out loud using the `say` command  
+- 🗃 **Auto Logging** — Saves every reminder to `reminders.log` for future reference  
+- 🧾 **History Preview** — View your last 3 reminders right in the terminal  
 
 ---
 
@@ -21,51 +20,81 @@ Includes a system notification, voice alert, and automatic logging.
 
 - macOS  
 - Zsh shell  
-- Built-in tools: `osascript`, `say`, `tail` (default on macOS)
+- Built-in macOS utilities: `osascript`, `say`, `tail`  
+
+No third-party dependencies. No installation required. Just run the script.
 
 ---
 
-## ⚙️ How to Use
-1. Download the script:
+## ⚙️ Quick Start
+
+1. **Download the script:**
 ```bash
-curl -O https://raw.githubusercontent.com/firmach48/shell-reminder/main/reminder.sh
+curl -O https://raw.githubusercontent.com/firmach48/simple-reminder/main/reminder.sh
 ```
-3. Make it executable:
+
+2. **Make it executable:**
 ```bash
 chmod +x remindme.sh
 ```
-5. Run the script:
+
+3. **Run it:**
 ```bash
 ./remindme.sh
 ```
-💡 Example
+
+---
+
+## 💡 Sample Usage
+
+```bash
 $ ./remindme.sh
-Enter reminder text:
-Go to the pool
 
-✅ Reminder saved to /Users/you/reminders/reminders.log
+Enter your reminder text:
+
+Drink water
+
+✅ Reminder added to /Users/you_profile/remindme/reminders.log
+
 Recent reminders:
-2025-05-11 13:30 | Go to the pool
 
-🔔 This is what the notification looks like [Alt text](/notification.png)
+2025-05-11 13:30 | Drink water
+```
 
-📁 Reminder Log
-Reminders are stored in a simple text file called reminders.log in the current working directory, with the following format:
+---
 
-YYYY-MM-DD HH:MM | Reminder text
+## 🔔 What You'll See
 
-🤔 Why Use This?
-Zero setup — uses macOS built-in tools
+![Notification Example](/notification.png)
 
-Terminal-friendly for devs
+---
 
-Lightweight and fast
+## 📁 Logging Format
 
-Easy to customize or extend
+Reminders are saved in the `reminders.log` file located in the current directory:  
 
-📄 License [here](./LICENSE.md). 
-MIT — free to use, modify, and distribute.
+```
+YYYY-MM-DD HH:MM | Your reminder text
+```
 
-👤 Author
-Artem Goncharov (firmach48)
-GitHub: https://github.com/firmach48
+---
+
+## 💭 Why You'll Love It
+
+- ✅ **Zero setup** — Works out of the box  
+- 🧘‍♂️ **Minimal & clean** — No bloat, no distractions  
+- 💻 **Terminal-friendly** — Perfect for developers and command-line enthusiasts  
+- 🔐 **Offline & private** — No data sent anywhere  
+
+---
+
+## 📄 License
+
+Licensed under the [MIT License](./LICENSE.md) — free to use, modify, and distribute.
+
+---
+
+## 👤 Author
+
+**Artem Goncharov** ([firmach48](https://github.com/firmach48))  
+Feel free to ⭐ the repo if you find it useful!
