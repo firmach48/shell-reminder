@@ -13,8 +13,7 @@ Includes a system notification, voice alert, and automatic logging.
 - 🔊 Voice alert using `say`
 - 🗂 Logs reminders to `reminders.log`
 - 📋 Shows the last 3 reminders in the terminal
-- This is what it looks like
-- ![Alt text](/notification.jpeg)
+
 
 ---
 
@@ -33,20 +32,22 @@ curl -O https://raw.githubusercontent.com/firmach48/shell-reminder/main/reminder
 ```
 3. Make it executable:
 ```bash
-chmod +x reminder.sh
+chmod +x remindme.sh
 ```
 5. Run the script:
 ```bash
-./reminder.sh
+./remindme.sh
 ```
 💡 Example
-$ ./reminder.sh
+$ ./remindme.sh
 Enter reminder text:
 Go to the pool
 
 ✅ Reminder saved to /Users/you/reminders/reminders.log
 Recent reminders:
 2025-05-11 13:30 | Go to the pool
+
+🔔 This is what the notification looks like [Alt text](/notification.png)
 
 📁 Reminder Log
 Reminders are stored in a simple text file called reminders.log in the current working directory, with the following format:
@@ -66,5 +67,5 @@ Easy to customize or extend
 MIT — free to use, modify, and distribute.
 
 👤 Author
-firmach48
+Artem Goncharov (firmach48)
 GitHub: https://github.com/firmach48
